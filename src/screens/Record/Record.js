@@ -1,7 +1,7 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from '../../images/logo.svg';
+import './styles.css';
 
-function App() {
+export const Record = () => {
   return (
     <div className="App">
       <header className="App-header">
@@ -17,9 +17,8 @@ function App() {
         >
           Learn React
         </a>
+        <div className='noto-sans-font'>日本語：Noto SansCJK JP</div>
       </header>
     </div>
   );
 }
-
-export default App;

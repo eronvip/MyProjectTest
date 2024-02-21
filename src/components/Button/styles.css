@@ -1,0 +1,17 @@
+.btn {
+    width: 116px;
+    height: 134px;
+    background: linear-gradient(120deg, #FFCC21, #FF963C);
+    position: relative;
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #ffffff;
+}
+
+.btn img {
+    width: auto;
+    height: 56px;
+}

@@ -1,0 +1,9 @@
+.btn-see-more {
+    width: 296px;
+    height: 56px;
+    line-height: 56px;
+    background: linear-gradient(120deg, #FFCC21, #FF963C);
+    text-align: center;
+    color: #ffffff;
+    margin: 32px auto;
+}
