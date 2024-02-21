@@ -1,0 +1,34 @@
+.recommended {
+    display: flex;
+}
+
+.recommended .item-recommended {
+    width: 25%;
+    padding: 16px;
+}
+
+.recommended .item-recommended .wrapper {
+    background-color: #2E2E2E;
+    padding: 32px;
+    text-align: center;
+}
+
+.recommended .item-recommended .wrapper .title {
+    font-size: 22px;
+    line-height: 27px;
+    color: #FFCC21;
+    text-transform: uppercase;
+}
+
+.recommended .item-recommended .wrapper .line {
+    width: 100px;
+    height: 1px;
+    margin: 16px auto;
+    background-color: #fff;
+}
+
+.recommended .item-recommended .wrapper .label {
+    font-size: 18px;
+    line-height: 26px;
+    color: #fff;
+}

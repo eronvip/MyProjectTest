@@ -1,6 +1,52 @@
-.achievement {
+.my-menu {
+    display: flex;
+}
+
+.my-menu .cell-menu {
+    width: calc(100% / 3);
+    padding-bottom: calc(100% / 3);
+    position: relative;
+}
+
+.my-menu .cell-menu .wrapper {
+    position: absolute;
+    top: 16px;
+    bottom: 16px;
+    left: 16px;
+    right: 16px;
+    background-color: #FFCC21;
+    padding: 16px;
+    cursor: pointer;
+}
+
+.my-menu .cell-menu .wrapper .block-menu-image {
+    height: 100%;
+    filter: grayscale(100%);
+}
+
+.my-menu .cell-menu .wrapper .block-menu-content {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.my-menu .cell-menu .wrapper .block-menu-content .title {
+    font-size: 25px;
+    color: #FFCC21;
+    margin-bottom: 8px;
+}
+
+.my-menu .cell-menu .wrapper .block-menu-content .label {
+    background-color: #FF963C;
+    color: #fff;
     width: 100%;
-    height: 312px;
-    background-image: url(../../images/home/d01.jpg);
-    background-position: center;
+    max-width: 200px;
+    padding: 4px 16px;
 }

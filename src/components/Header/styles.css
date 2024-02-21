@@ -1,6 +1,10 @@
 .header-container {
     background-color: #414141;
     padding: 8px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1;
 }
 
 .header {
@@ -12,27 +16,4 @@
 .logo {
     height: 40px;
     width: auto;
-}
-
-.menu {
-    display: flex;
-    align-items: center;
-    gap: 32px;
-}
-
-.menu .item {
-    display: flex;
-    align-items: center;
-    gap: 8px;
-}
-
-.menu .item a,
-.menu .item a:hover,
-.menu .item a:visited {
-    color: #ffffff;
-    text-decoration: none;
-}
-
-.menu .item img {
-    height: 20px;
 }

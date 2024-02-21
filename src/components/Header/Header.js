@@ -1,6 +1,7 @@
 import React from 'react';
-import { Menu } from '../Menu';
+import { Link } from 'react-router-dom';
 import logo from "../../images/logo.svg";
+import { Menu } from '../Menu';
 import "./styles.css";
 
 export const Header = (props) => {
@@ -12,7 +13,7 @@ export const Header = (props) => {
     <div className='header-container'>
       <div className='container header'>
         <div className='logo'>
-          <img src={logo} className="logo" alt="logo" />
+          <Link to="/"><img src={logo} className="logo" alt="logo" /></Link>
         </div>
         <Menu menuList={menu} />
       </div>

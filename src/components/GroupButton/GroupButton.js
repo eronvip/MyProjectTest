@@ -11,7 +11,7 @@ export const GroupButton = () => {
     label: "Morning",
     icon: iconMorning,
   }, {
-    label: "Luch",
+    label: "Lunch",
     icon: iconLunch,
   }, {
     label: "Dinner",

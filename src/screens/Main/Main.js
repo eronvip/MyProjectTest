@@ -7,7 +7,7 @@ import './styles.css';
 
 export const Main = () => {
   return (
-    <div>
+    <div className='body'>
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
